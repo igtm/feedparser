@@ -26,6 +26,7 @@
 # POSSIBILITY OF SUCH DAMAGE."""
 
 from .api import parse
+from .sanitizer import _HTMLSanitizer
 from .datetimes import registerDateHandler
 from .exceptions import *
 from .util import FeedParserDict
